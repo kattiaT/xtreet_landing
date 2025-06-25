@@ -31,24 +31,27 @@ export default {
       boxShadow: {
         xtreetGlow: "0 0 10px #f70cf0, 0 0 20px #04F7E6"
       },
+      fontFamily: {
+        avant: ['AvantGarde', 'sans-serif'],
+      },
     },
   },
   plugins: [function ({ addUtilities }) {
-      addUtilities({
-        '.xtreet-blur': {
-          position: 'absolute',
-          bottom: '-8rem',
-          right: '-6rem',
-          width: '600px',
-          height: '600px',
-          backgroundColor: '#a128a5',
-          opacity: '0.25',
-          filter: 'blur(160px)',
-          mixBlendMode: 'screen',
-          zIndex: '0',
-          pointerEvents: 'none',
-        },
-      })
-    },
+    addUtilities({
+      '.xtreet-blur': {
+        position: 'absolute',
+        bottom: '-8rem',
+        right: '-6rem',
+        width: '600px',
+        height: '600px',
+        backgroundColor: '#a128a5',
+        opacity: '0.25',
+        filter: 'blur(160px)',
+        mixBlendMode: 'screen',
+        zIndex: '0',
+        pointerEvents: 'none',
+      },
+    })
+  },
   ],
 }

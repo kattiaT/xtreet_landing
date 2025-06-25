@@ -57,12 +57,12 @@ export default function Contacto() {
             <div className="relative z-10 flex justify-center items-center min-h-full">
                 <form
                     onSubmit={handleSubmit}
-                    className="w-full max-w-xl bg-white/10 p-8 rounded-2xl shadow-2xl backdrop-blur-md animate-fadeInUp"
+                    className="font-avant w-full max-w-xl bg-white/10 p-8 rounded-2xl shadow-2xl backdrop-blur-md animate-fadeInUp"
                 >
                     <h2 className="text-5xl font-bold text-center mb-8">Contáctanos</h2>
 
                     <div className="mb-4">
-                        <label className="block mb-1 text-2xl">Nombre</label>
+                        <label className="block mb-1 text-2xl font-medium">Nombre</label>
                         <input
                             type="text"
                             name="nombre"
@@ -74,7 +74,7 @@ export default function Contacto() {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block mb-1 text-2xl">Correo</label>
+                        <label className="block mb-1 text-2xl font-medium">Correo</label>
                         <input
                             type="email"
                             name="email"
@@ -86,7 +86,7 @@ export default function Contacto() {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block mb-1 text-2xl">Mensaje</label>
+                        <label className="block mb-1 text-2xl font-medium">Mensaje</label>
                         <textarea
                             name="mensaje"
                             value={formData.mensaje}
@@ -102,7 +102,7 @@ export default function Contacto() {
 
                     <button
                         type="submit"
-                        className="w-full bg-[#9531F0] hover:bg-[#7a28c7] text-white font-semibold py-2 px-4 rounded transition duration-300 text-lg"
+                        className="w-full bg-[#9531F0] hover:bg-[#7a28c7] text-white font-bold py-2 px-4 rounded transition duration-300 text-lg"
                     >
                         Enviar mensaje
                     </button>

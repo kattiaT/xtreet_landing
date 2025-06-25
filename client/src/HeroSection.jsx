@@ -25,24 +25,24 @@ export default function HeroSection() {
       <div className="xtreet-blur"></div>
 
       {/* Contenido principal */}
-      <div className="relative z-10 flex flex-col items-center text-center animate-fadeInUp scale-[1] sm:scale-[1.05] md:scale-[1.1] lg:scale-[1.15] max-w-[90vw] sm:max-w-[85vw]">
+      <div className="relative z-10 flex flex-col items-center text-center animate-fadeInUp max-w-screen-md">
         <img
           src="assets/isologotipo blanco(1).svg"
           alt="XTREET Logo"
-          className="w-[14rem] sm:w-[18rem] md:w-[24rem] lg:w-[32rem] mb-6"
+          className="w-64 sm:w-80 md:w-[28rem] lg:w-[36rem] mb-6"
         />
 
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-3 tracking-wide">
+        <h2 className="font-avant text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 tracking-wide">
           Impulsa tu estilo
         </h2>
 
-        <p className="text-sm sm:text-base md:text-lg text-white italic opacity-90 mb-10 max-w-lg">
+        <p className="font-avant text-lg sm:text-xl md:text-2xl text-white opacity-90 mb-12 px-4 max-w-lg font-medium">
           {frasesXTREET[indexFrase]}
         </p>
 
         <a
           href="#collections"
-          className="animate-bounce bg-white text-black px-6 py-3 rounded-full font-semibold tracking-wider text-base md:text-lg shadow-xtreetGlow transition-all duration-300 transform hover:scale-105"
+          className="font-avant animate-bounce bg-white text-black px-6 py-3 rounded-full font-bold tracking-wider text-base md:text-lg shadow-xtreetGlow transition-all duration-300 transform hover:scale-105"
         >
           COMPRAR AHORA
         </a>
