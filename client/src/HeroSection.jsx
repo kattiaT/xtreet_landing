@@ -29,20 +29,20 @@ export default function HeroSection() {
         <img
           src="assets/isologotipo blanco(1).svg"
           alt="XTREET Logo"
-          className="w-64 sm:w-80 md:w-[28rem] lg:w-[36rem] mb-6"
+          className="w-64 sm:w-80 md:w-[20rem] lg:w-[32rem] mb-6"
         />
 
-        <h2 className="font-avant text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 tracking-wide">
+        <h2 className="font-avant text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-white mb-3 tracking-wide">
           Impulsa tu estilo
         </h2>
 
-        <p className="font-avant text-lg sm:text-xl md:text-2xl text-white opacity-90 mb-12 px-4 max-w-lg font-medium">
+        <p className="font-avant text-base sm:text-base md:text-lg lg:text-xl text-white opacity-90 mb-12 px-4 max-w-lg font-medium">
           {frasesXTREET[indexFrase]}
         </p>
 
         <a
           href="#collections"
-          className="font-avant animate-bounce bg-white text-black px-6 py-3 rounded-full font-bold tracking-wider text-base md:text-lg shadow-xtreetGlow transition-all duration-300 transform hover:scale-105"
+          className="font-avant animate-bounce bg-white text-black px-6 py-3 rounded-full font-bold tracking-wider text-xs md:text-sm lg:text-base sm:text-sm shadow-xtreetGlow transition-all duration-300 transform hover:scale-105"
         >
           COMPRAR AHORA
         </a>
