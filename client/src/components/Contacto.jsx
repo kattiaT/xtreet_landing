@@ -33,7 +33,7 @@ export default function Contacto() {
 
         //enviamos
         try {
-            const response = await fetch('http://localhost:3000/contacto', {
+            const response = await fetch('https://xtreet-landing.onrender.com/contacto', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData),
