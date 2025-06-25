@@ -5,7 +5,7 @@ const Contacto = require('./models/Contacto'); // modelo de contacto
 const cors = require('cors');
 
 const app = express(); // crear la app de Express
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json()); // para permitir recibir json en las peticiones
@@ -50,5 +50,5 @@ app.get('/contacto', async (req, res) => {
 
 // iniciar el servidor
 app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+  console.log(`Servidor escuchando en el puerto ${port}`);
 });
