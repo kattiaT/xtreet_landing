@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import SocialIcons from './components/SocialIcons';
 
 export default function HeroSection() {
   useEffect(() => {
@@ -47,6 +48,7 @@ export default function HeroSection() {
           COMPRAR AHORA
         </a>
       </div>
+      <SocialIcons />
     </section>
   );
 }

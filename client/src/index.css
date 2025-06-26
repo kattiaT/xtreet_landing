@@ -23,28 +23,21 @@ a {
 
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  scroll-behavior: smooth;
 }
 
-/* Ocultar scrollbar visual sin bloquear el scroll */
-.scrollbar-hide {
-  scrollbar-width: none;
-  /* Firefox */
-  -ms-overflow-style: none;
-  /* IE 10+ */
+
+* {
+  box-sizing: border-box;
 }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-  /* Chrome, Safari, Edge */
-}
 
-body {
+
+/* body {
   overflow-x: hidden;
-}
+} */
 
 h1 {
   font-size: 3.2em;
