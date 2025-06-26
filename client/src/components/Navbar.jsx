@@ -29,7 +29,7 @@ export default function Navbar() {
                     <Link to="/" className="hover:text-purple-400 transition">Inicio</Link>
                     <a href="#coleccion" className="hover:text-purple-400 transition">Colección</a>
                     <a href="#galeria" className="hover:text-purple-400 transition">Galería</a>
-                    <Link to="/Contacto" className="hover:text-purple-400 transition">Contacto</Link>
+                    <Link to="/contacto" className="hover:text-purple-400 transition">Contacto</Link>
                 </nav>
             </div>
 
