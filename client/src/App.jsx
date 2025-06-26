@@ -7,7 +7,7 @@ import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
   return (
-    <div className="min-h-screen w-screen overflow-x-hidden">
+    <div className="min-h-screen w-full overflow-x-hidden">
       <Router>
 
         <Navbar />

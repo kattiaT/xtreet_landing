@@ -19,6 +19,13 @@ export default {
           )
         `,
       },
+      screens: {
+        'xs': '360px', // Pantallas pequeñas tipo Galaxy
+        'sm': '480px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+      },
       animation: {
         fadeInUp: "fadeInUp 1s ease-out"
       },
